@@ -1,6 +1,7 @@
 @import "_normalize";
 @import "_variables";
 @import "modules/project";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&display=swap");
 
 
 html {
@@ -12,6 +13,7 @@ html {
 }
 
 body {
+  font-family: Nunito;
   color: $white;
   background: $black;
 }
