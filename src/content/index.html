@@ -19,26 +19,63 @@
   </head>
   <body>
     <section class="container">
-      <div class="project">
+      <article class="project">
         <div class="project__header">
-
+          <span class="project__circle project__circle--red"></span>
+          <span class="project__circle project__circle--yellow"></span>
+          <span class="project__circle project__circle--green"></span>
         </div>
-        <div class="project__body">
-          <p>
-            <span>project:</span>
+        <div class="project__content">
+          <p class="project__grid">
+            <span class="project__label">project:</span>
             <span>test-project1</span>
           </p>
-          <p>
-            <span>description:</span>
-            <span>project description</span>
+          <p class="project__grid">
+            <span class="project__label">description:</span>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perspiciatis iure sint exercitationem obcaecati eos ipsum soluta earum alias corrupti?</span>
+          </p>
+
+          <p class="project__grid">
+            <span class="project__label">website:</span>
+            <span>&#60;<a class="project__link project__link--page" href="#">site/</a>/&#62;</span>
+          </p>
+  
+          <p class="project__grid">
+            <span class="project__label">repository:</span>
+            <span>&#60;<a class="project__link project__link--repo" href="#">source code</a>/&#62;</span>
           </p>
         </div>
+      </article>
+    </section>
 
-        <div class="project__footer">
-          <a class="project__link project__link--page" href="#">Websiete</a>
-          <a class="project__link project__link--repo" href="#">Repo</a>
+    <section class="container">
+      <article class="project">
+        <div class="project__header">
+          <span class="project__circle project__circle--red"></span>
+          <span class="project__circle project__circle--yellow"></span>
+          <span class="project__circle project__circle--green"></span>
         </div>
-      </div>
+        <div class="project__content">
+          <p class="project__grid">
+            <span class="project__label">project:</span>
+            <span>test-project1</span>
+          </p>
+          <p class="project__grid">
+            <span class="project__label">description:</span>
+            <span>project description</span>
+          </p>
+
+          <p class="project__grid">
+            <span class="project__label">website:</span>
+            <span>&#60;<a class="project__link project__link--page" href="#">site/</a>/&#62;</span>
+          </p>
+  
+          <p class="project__grid">
+            <span class="project__label">repository:</span>
+            <span>&#60;<a class="project__link project__link--repo" href="#">source code</a>/&#62;</span>
+          </p>
+        </div>
+      </article>
     </section>
     <script src="js/main.js"></script>
   </body>
