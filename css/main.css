@@ -334,8 +334,8 @@ template {
   font-size: 1rem;
   font-weight: 400;
   font-family: Roboto Mono;
-  -webkit-box-shadow: 4px 16px rgba(0, 0, 0, 0.25);
-          box-shadow: 4px 16px rgba(0, 0, 0, 0.25); }
+  -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25); }
   .project--light {
     background: #ffffff;
     color: #8d8d8d; }
@@ -349,9 +349,9 @@ template {
     .project__circle--red {
       background: #ff0000; }
     .project__circle--green {
-      background: #00ff00; }
+      background: #00da00; }
     .project__circle--yellow {
-      background: #F9C802; }
+      background: #ffd015; }
   .project__content {
     padding: 1.25rem 3rem 3.5rem; }
   .project__grid {
@@ -378,8 +378,8 @@ template {
         -ms-flex-align: center;
             align-items: center; }
     .project__header--light {
-      background: #b9b9b9;
-      color: #575757; }
+      background: #b6b6b6;
+      color: #4e4e4e; }
   .project__label {
     color: #808082;
     text-align: right;
@@ -409,6 +409,6 @@ html {
 body {
   font-family: Nunito;
   color: #ffffff;
-  background: #000; }
+  background: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
