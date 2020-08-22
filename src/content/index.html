@@ -5,17 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Site title</title>
-  <meta name="description" content="Description" />
-
-  <!-- Title -->
-  <meta property="og:title" content="" />
-  <!-- OPTIONAL description. 2-4 sentences. -->
-  <meta property="og:description" content="" />
-  <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-  <meta property="og:url" content="" />
-  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-  <meta property="og:image" content="" />
+  <title>Project cards</title>
   <link rel="stylesheet" href="css/main.css" />
 </head>
 
@@ -82,13 +72,40 @@
 
     <article class="project">
       <div class="project__header">
-        
         <span class="project__circle project__circle--red"></span>
         <span class="project__circle project__circle--yellow"></span>
         <span class="project__circle project__circle--green"></span>
         <span class="project__titlebar">
-          <span class="project__title">Project:</span> 
+          <span>Project:</span> 
           <span class="project__name">WebGame</span>
+        </span>
+      </div>
+      <div class="project__content">
+        <p class="project__grid project__grid--description">
+          <span class="project__label">description:</span>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, dolorum!</span>
+        </p>
+
+        <p class="project__grid">
+          <span class="project__label">website:</span>
+          <span>&#60;<a class="project__link project__link--page" href="#">see_here</a>&#62;</span>
+        </p>
+
+        <p class="project__grid">
+          <span class="project__label">repository:</span>
+          <span>&#60;<a class="project__link project__link--repo" href="#">source_code</a>&#62;</span>
+        </p>
+      </div>
+    </article>
+
+    <article class="project project--light">
+      <div class="project__header project__header--light">
+        <span class="project__circle project__circle--red"></span>
+        <span class="project__circle project__circle--yellow"></span>
+        <span class="project__circle project__circle--green"></span>
+        <span class="project__titlebar">
+          <span>Project:</span> 
+          <span class="project__name project__name--light">WebGame</span>
         </span>
       </div>
       <div class="project__content">

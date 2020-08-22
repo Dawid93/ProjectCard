@@ -1,11 +1,27 @@
+// Circle colors
+$circle-red: #ff0000;
+$circle-green: #00ff00;
+$circle-yellow: #F9C802;
+
+// Bacground colors
 $black: #000;
-$yellow: #F9C802;
 $white: #ffffff;
-$lightGray: #808082;
-$titlebarTextDark: #cacaca;
-$red: #ff0000;
-$green: #00ff00;
-$darkGray: #1e1e1e;
-$gray: #212528;
-$blue: #14b5d0;
-$terminalDescription: #a3a3a3;
+
+// Link color
+$linkBlue: #14b5d0;
+
+// Project dark colors
+$terminalTextDark: #a3a3a3;
+$terminalBackgroundDark: #212528;
+$terminalBarBackgroundDark: #1e1e1e;
+$terminalBarTextDark: #cacaca;
+$terminalLabelDark: #808082;
+
+// Project light colors
+$terminalTextLight: #8d8d8d;
+$terminalBackgroundLight: #ffffff;
+$terminalBarBackgroundLight: #b9b9b9;
+$terminalBarTextLight: #575757;
+$terminalLabelLight: #808082;
+
+
