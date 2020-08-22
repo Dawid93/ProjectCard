@@ -2,7 +2,15 @@
 
 ![card in action](SS/example.png)
 
-Simple project created in HTML and SASS with cards stylized as Mac OS terminal window. Cards was create for describe projects for example on portfolio page.
+## Link 
+
+[See on GH Pages](https://dawid93.github.io/ProjectCard/)
+
+## Description
+
+Cards for describe project stylized as terminal window. Cards are created in HTML and SCSS. In project you can find two themes for cards `Dark` (daefault) and `Light`.
+
+![card themes](SS/themes.png)
 
 ## How to run:
 `npm install -g gulp-cli`
